@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/telefonosFragment">
+
+    <fragment
+        android:id="@+id/telefonosFragment"
+        android:name="cl.jrod191.novaera.ui.TelefonosFragment"
+        android:label="fragment_telefonos"
+        tools:layout="@layout/fragment_telefonos" />
+</navigation>
